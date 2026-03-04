@@ -3,7 +3,7 @@ cask "agentmail" do
   name "agentmail"
   desc "The official CLI for AgentMail."
   homepage "https://agentmail.to"
-  version "0.4.1"
+  version "0.4.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -18,22 +18,22 @@ cask "agentmail" do
   on_macos do
     on_intel do
       url "https://github.com/agentmail-to/agentmail-cli/releases/download/v#{version}/agentmail_#{version}_macos_amd64.zip"
-      sha256 "324b7955d4d04b943cb6f3c66738436919ba5eb6cab30a037af3ca59b229616a"
+      sha256 "cf47949695a56b5105d256a6873cb3bcf7353a33de5df151220daf06db8090b2"
     end
     on_arm do
       url "https://github.com/agentmail-to/agentmail-cli/releases/download/v#{version}/agentmail_#{version}_macos_arm64.zip"
-      sha256 "a3476f147c988f3ce44bb6a904e761b51d3dbbc1ec9ae0f2d2bee372d63b17a0"
+      sha256 "c231ed24b103c614678000faa500b2530b86e3efa6193a96ce70edda995a62c0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/agentmail-to/agentmail-cli/releases/download/v#{version}/agentmail_#{version}_linux_amd64.tar.gz"
-      sha256 "de1a54cc647f2f1f2f06a41c41782ac609c1872f79523ea6b930dce044eac47c"
+      sha256 "710feb044f9e4f36977020f71c58df1b5c833b2e0e56a22c70420f047f672065"
     end
     on_arm do
       url "https://github.com/agentmail-to/agentmail-cli/releases/download/v#{version}/agentmail_#{version}_linux_arm64.tar.gz"
-      sha256 "9d481b7a6a083e735f639e44a107f2d85642bdd3d4f316a00c4bea783f578ef3"
+      sha256 "8c65594592d34d344192fc1450d1c8ab84f82534d9ea5c10f2308988504676fb"
     end
   end
 
